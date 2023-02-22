@@ -1,5 +1,7 @@
+import GUI.g_Welcome;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        g_Welcome welcome = new g_Welcome();
     }
 }
